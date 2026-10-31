@@ -3,7 +3,6 @@
 from contextlib import asynccontextmanager
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
-
 import schemas
 import services
 from db import create_tables, get_db
